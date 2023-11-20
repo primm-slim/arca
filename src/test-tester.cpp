@@ -4,8 +4,6 @@
 
 #include "tester.h"
 
-// test-tester
-
 void sample_test() {
   START_TEST("Sample Test");
   TEST_VAL(1,1);
