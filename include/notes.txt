@@ -1,0 +1,80 @@
+tester.h
+ - GlobalTester
+ - start_test, end_test, test_val, watch, print_ln, print_str, print_val, print_hex, trace
+
+arca.h
+ - main library that loads in other libraries, only stable libraries go here
+
+arca_base.h
+ - Reg8, Int8, Loop, Seq
+
+
+arca_tuple.h
+ - Pair, Triple
+
+arca_tree.h
+ - Btree (set, map)
+
+arca_sys.h
+ - System specific (currently empty)
+
+arca_string.h
+ - defunct, has string roll and some array duplicates
+
+arca_space.h
+ - Regpack
+
+arca_sideboard.h
+ - defunct, has some sysalloc functions
+
+arca_chain.h
+ - WIP, fwd chain functions
+
+
+arca_btree.h
+ - WIP, not much
+
+arca_bitmap.h
+ - WIP, bitmap functions
+
+
+arca_asm.h
+ - Asm functions (x86)
+ - need an arm version
+
+arca_array.h
+ - Mem:  Seq, SeqRev,
+ - Array: ArrayIdxSeq, ArrayPtrSeq, ArrayFn, ArrayListFn, SortedArray, SortedArrayMap
+
+arca_array_static.h
+ - Static Array, StaticArrayList, StaticArrayMap
+
+arca_array_misc.h
+ - WIP, ArraySet
+
+arca_array_map.h
+ - ArrayHeap, ArrayStack, ArraySet, ArrayChainSet,
+
+
+----
+
+Objectives, Data Structures:
+ - ArrayFn, ArrayListFn
+ - ArrayHeapFn, ArrayStackFn
+ - SortedArraySetFn, SortedArrayMapFn
+ - BitArrayFn, BitRollFn
+ - ArrayRingBufferFn
+ - ArrayGapBufferFn
+ - ChainFwdPtr, ChainDblPtr
+ - ChainFwdIdx, ChainDblIdx
+ - BinTreeIdxSet, BinTreeIdxMap
+ - BinTreePtrSet, BinTreePtrMap
+ - B23TreeIdxSet, B23TreeIdxMap
+ - B23TreePtrSet, B23TreePtrMap
+ - BtreeIdxSet, BtreeIdxMap
+ - BtreePtrSet, BtreePtrMap
+
+
+
+
+
